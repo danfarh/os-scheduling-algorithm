@@ -1,7 +1,7 @@
-# os_scheduling_algorithm
+# OS Scheduling Simulation
 
-# About The Project
-  os_scheduling_algorithm app.
+## About The Project
+This program simulates the behavior of different CPU scheduling algorithms used by operating systems, including First-Come-First-Serve (FCFS), Round Robin (RR), Preemptive/Non-Preemptive Priority, and Shortest Job First (SJF).
 
 ## Technologies used in this project:
   - python
@@ -17,14 +17,12 @@
     virtualenv venv 
     cd venv/Scripts 
     activate
-    cd ..
-    cd ..
+    cd ../..
     pip install -r requirements.txt
 
 #### run app 
     cd venv/Scripts 
     activate 
-    cd ..
-    cd ..
+    cd ../..
     python main_ui.py
 
